@@ -3,3 +3,12 @@
 2026.09.29 18:23:48 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
 2026.09.29 18:23:50 INFO  no build target found for C:\Users\DEIBY\IdeaProjects\Scala1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
 2026.09.29 18:23:50 WARN  no build target for: C:\Users\DEIBY\IdeaProjects\Scala1\build.sbt
+2026.09.29 18:24:08 INFO  no build target found for C:\Users\DEIBY\IdeaProjects\Scala1\src\main\scala\Multiplicacion\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.29 18:24:09 INFO  no build target found for C:\Users\DEIBY\IdeaProjects\Scala1\src\main\scala\Multiplicacion\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+sep. 29, 2026 6:24:09 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1
+2026.09.29 18:24:08 INFO  no build target found for C:\Users\DEIBY\IdeaProjects\Scala1\src\main\scala\Multiplicacion\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.29 18:36:35 INFO  Shutting down server
+2026.09.29 18:36:35 INFO  Memory monitor stopped
+2026.09.29 18:36:35 INFO  shutting down Metals
+2026.09.29 18:36:35 INFO  Exiting server
