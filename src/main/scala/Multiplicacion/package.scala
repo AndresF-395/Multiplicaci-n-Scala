@@ -10,7 +10,7 @@ package object Multiplicacion {
 
     if (a == 0) 0
     else if (a%2 == 0) PeasantAlgorithm(a/2, b+b)
-    else PeasantAlgorithm( a/2, b+b ) + b
+    else PeasantAlgorithm( a/2, b+b ) + b  // este sería la sumatoria total cada vez que el modulo sea impar
   }
 
 
@@ -51,22 +51,27 @@ package object Multiplicacion {
       a*b
     }
     else {
+
+      // se Obtiene el valor máximo de digitos en caso de que a y b tengan diferentes cifras
       val n = math.max(digitos(a), digitos(b))
       val m = n / 2
 
       val potencia = math.pow(10, m).toInt
 
+      // se separan los números a y b en 2 mitades
       val x = a / potencia
       val y = a % potencia
 
       val z = b / potencia
       val w = b % potencia
 
+      //aqui ya se aplica el Cálculo recursivo de las 4 multiplicaciones
       val xz = splitMultiply(x, z)
       val xw = splitMultiply(x, w)
       val yz = splitMultiply(y, z)
       val yw = splitMultiply(y, w)
 
+      // y ya esta sería la ecuación final del split multiply
       math.pow(10, m+m).toInt * xz + potencia * (xw + yz) + yw
     }
   }
