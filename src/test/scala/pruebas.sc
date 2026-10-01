@@ -36,20 +36,22 @@ java.lang.IllegalArgumentException: Los operandos deben ser positivos
 
 val res5: Int = 60
 val res6: Int = 13110
-val res7: Int = 42
+val res7: Int = 5000
+val res8: Int = 42
 java.lang.IllegalArgumentException: Los operandos deben ser positivos
   
 
-val res9: Int = 25
-val res10: Int = 97200
-val res11: Int = 7138152
-val res12: Int = 346504704
+val res10: Int = 25
+val res11: Int = 97200
+val res12: Int = 7138152
+val res13: Int = 346504704
 java.lang.IllegalArgumentException: Los operandos deben ser no negativos
   
 
-val res14: Int = 107868
-val res15: Int = 0
-val res16: Int = 1389951104
+val res15: Int = 107868
+val res16: Int = 0
+val res17: Int = 9908400
+val res18: Int = 1389951104
 java.lang.IllegalArgumentException: Los operandos deben ser no negativos
   
  */
